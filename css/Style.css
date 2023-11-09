@@ -1,0 +1,178 @@
+html,body{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+:root{
+    --prmary-color:#F25F3A;
+    --secondary-color:#242D52;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display:flex;
+    gap: 50px;
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+button{
+    background-color:#F25F3A;
+    border-radius: 30px;
+    padding: 14px 35px;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(209, 50, 10);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 100px 50px;
+}
+
+.maindiv1{
+    width:45%
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700px;
+    color: var(--secondary-color);
+}
+.section1 h2{
+    font-size:16px;
+    color: #242D52;
+    margin-bottom: 10px;
+}
+
+main p{
+    color: #9E95AD;
+    margin-bottom: 50px;
+}
+p{
+    color: #9E95AD;
+
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    gap: 100px;
+}
+
+.section1 h1{
+    font-size: 38px;
+}
+
+.divs{
+    width:122%;
+}
+
+.button{
+    background-color:#F25F3A;
+    border-radius: 30px;
+    padding: 8px 25px;
+    color: white;
+    border: none;    
+}
+.chi{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.one > p{
+    margin-left: 100px;
+    margin-bottom:50px;
+}
+
+.imagediv{
+    background-color: #F25F3A;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color:white;
+}
+.new{
+    background-color: #fff;
+    color: #F25F3A;
+}
+
+.imagediv h1{
+    color: white;
+    font-size:35px;
+}
+
+footer{
+    background-color: #1D1E25;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.Home{
+    display: flex;
+    gap: 150px;
+}
+
+footer a, footer p{
+    color: white;
+    text-decoration: none;
+}
+footer li{
+    list-style:none;
+    padding: 10px
+}
+footer img{
+    filter: invert();
+}
+input{
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.center{
+    text-align: center;
+    padding: 100px 0px 100px;
+}
+.cruise{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+.cruisebutton{
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.two img{
+    width: 25%;
+}
+.two p{
+    font-size: 14px;
+}
+
+.two div{
+    background-color: #FAFAFA;
+    padding:50px 20px 20px;
+    margin-top:-40px;
+}
