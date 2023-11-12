@@ -44,6 +44,7 @@ button{
     color: white;
     border: none;
     box-shadow: 5px 5px 10px rgb(209, 50, 10);
+    cursor: pointer;
 }
 
 main{
@@ -306,13 +307,16 @@ input{
         font-size:30px;
         margin:0;
     }
+    .ri-close-line{
+        display:none; 
+    }
     nav ul{
         position:fixed;
          flex-direction: column;
         padding:30px 70px;
         border-radius: 10px;
         background-color:var(--prmary-color);
-        top:50%;
+        top:-50%;
         left: 50%;
         transform: translate(-50%,-50%); 
         transition: .5s;
@@ -320,9 +324,7 @@ input{
         box-shadow: 10px 10px 7000px gray, -10px -10px 700px gray;
 
      }
-     .ri-close-line{
-        display:none; 
-    }
+     
     nav ul a{
         color:white;
     }
